@@ -46,12 +46,12 @@ function ClockShort(id, timezone) {
     }
 }
 
-//======================================================================
+//=====================================================
 
 setInterval(function () {
     clockLocal.draw();
     clockUTC.draw();
 }, 500);
 
-var clockLocal = new ClockFull('time_local', 0, true);
-var clockUTC = new ClockShort('time_utc', -2, true);
+var clockLocal = new ClockFull('time_local', 0);
+var clockUTC = new ClockShort('time_utc', -2);
