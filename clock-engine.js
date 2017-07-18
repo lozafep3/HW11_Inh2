@@ -45,13 +45,3 @@ function ClockShort(id, timezone) {
         document.getElementById(id).innerHTML = (+this.cHours() + timezone) + ':' + this.cMinutes();
     }
 }
-
-//=====================================================
-
-setInterval(function () {
-    clockLocal.draw();
-    clockUTC.draw();
-}, 500);
-
-var clockLocal = new ClockFull('time_local', 0);
-var clockUTC = new ClockShort('time_utc', -2);
