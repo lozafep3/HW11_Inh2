@@ -5,14 +5,10 @@ p {
     color: grey;
 }
 
+#time_local {
+    color: darkslateblue;
+}
+
 #time_utc {
     color: darkgreen;
-}
-
-#time_cet {
-    color: darkorange;
-}
-
-#time_utc2 {
-    color: darkslateblue;
 }
